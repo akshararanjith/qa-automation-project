@@ -13,4 +13,3 @@ def test_invalid_login(driver):
 
     assert "Your username is invalid!" in driver.page_source
 
-    driver.quit()

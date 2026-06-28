@@ -16,4 +16,3 @@ def test_logout(driver):
 
     assert "You logged out of the secure area!" in driver.page_source
 
-    driver.quit()
